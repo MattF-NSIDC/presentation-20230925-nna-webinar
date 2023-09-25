@@ -1,0 +1,35 @@
+project:
+  type: website
+
+
+website:
+  title: "Panelist notes: NNA-CO Webinar"
+  repo-url: &repo-url "https://github.com/MattF-NSIDC/"
+  repo-actions:
+    - "edit"
+    - "source"
+    - "issue"
+
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy;"
+
+  sidebar:
+    background: "#eee"
+    style: "docked"
+    search: true
+    contents:
+      - text: "Home"
+        href: "index.md"
+      - text: "Slides"
+        href: "slides/index.md"
+
+
+format:
+  html:
+    theme: "cosmo"
+    css: "styles.css"
+    toc: true
+
+
+
