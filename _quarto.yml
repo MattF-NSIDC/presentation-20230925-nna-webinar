@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Panelist notes: NNA-CO Webinar"
-  repo-url: &repo-url "https://github.com/MattF-NSIDC/"
+  repo-url: &repo-url "https://github.com/MattF-NSIDC/presentation-20230926-nna-webinar"
   repo-actions:
     - "edit"
     - "source"
