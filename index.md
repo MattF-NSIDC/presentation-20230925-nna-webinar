@@ -8,6 +8,8 @@ listing:
   fields:
     - "title"
   sort: ["index", "title"]
+  sort-ui: false
+  filter-ui: false
 format:
   html: default
   revealjs:
