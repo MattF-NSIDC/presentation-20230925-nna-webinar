@@ -14,15 +14,14 @@ website:
     right: "This page is built with [Quarto](https://quarto.org/)."
     left: "&copy;"
 
-  sidebar:
-    background: "#eee"
-    style: "docked"
-    search: true
-    contents:
-      - text: "Home"
-        href: "index.md"
-      - text: "Slides"
-        href: "slides/index.md"
+  # TODO: Re-add nav if needed
+  # sidebar:
+  #   background: "#eee"
+  #   style: "docked"
+  #   search: true
+  #   contents:
+  #     - text: "Home"
+  #       href: "index.md"
 
 
 format:
